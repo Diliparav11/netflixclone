@@ -34,7 +34,7 @@ body{
 }
 
 .nav-menu{
-    margin-top: 10px;
+    padding-top: 10px;
     display: flex;
     justify-content: right;
     margin-right: 200px;
@@ -113,23 +113,23 @@ body{
 }
 
 .page-2{
-    margin-top: ;
     background-color: black;
 }
 
 #T1{
-    margin-top: 1000px;
+    margin-top: 0;
     margin-left: 100px;
     color: white;
 }
 
 .trending-list{
     margin: 0;
-    
+
     margin-left: 100px;
 }
 
 .card{
+    padding: 25px;
     display: inline-flex;
 }
 
@@ -137,38 +137,52 @@ body{
     transform: scale(1.2);
 }
 
-#Retro{
+.movie-cards{
     height: 200px;
     width: 150px;
-}
-
-#Chhaava{
-    height: 200px;
-    width: 150px;
-}
-
-#hit{
-    height: 200px;
-    width: 150px;
-}
-
-#test{
-    height: 200px;
-    width: 150px;
-}   
-
-#buddy{
-    height: 200px;
-    width: 150px;
-}   
-
-#hide-seek{
-    height: 200px;
-    width: 150px;
+    border-radius: 10px;
 }
 
 
+@media screen and (max-width: 500px){
+    .nav-menu{
+
+    }
+  
+}
 
 
+@media screen and (max-width: 500px) {
+    .nav-menu {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
 
+    #logo {
+        height: 40px;
+    }
+
+    #dropdown,
+    .signup-button {
+        width: 100%;
+    }
+
+    .mailbox-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .getstarted {
+        width: 80%;
+    }
+
+    .card img {
+        width: 100px;
+        height: 140px;
+    }
+
+    .P1 {
+        font-size: 8vw;
+    }
+}
 
