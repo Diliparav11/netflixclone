@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    /* height: 3000px; */
+}
+
+.page-1{
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    background-image: url(https://www.megacable.com.mx/images/netflix/background-netflix.png);
+    background-position: center;
+
+}
+#logo{
+    position: sticky;
+    height: 60px;
+    width: 180px;
+    padding-right: 60%;
+}
+
+#dropdown{
+    position: relative;
+    border: solid pink;   
+    height: 33px;
+    margin-top: 12.5px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: transparent;
+    color: white;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.nav-menu{
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
+    margin-right: 200px;
+    background-color: transparent;
+    width: 100%;
+
+}
+
+.signup-button{
+    position: relative;
+    background-color: red;
+    border-radius: 5px;
+    color:  white;
+    height: 33px;
+    width: 80px;
+    margin-top: 12.5px;
+    margin-right: 100px;
+    white-space: nowrap;
+
+    
+}
+
+.signup-button:hover{
+    background-color: rgb(207, 16, 16);
+}
+
+.P1{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    line-height: 5px;
+    margin-top: 200px;
+}
+
+.P2{
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#P3{
+    font-size: 15px;
+}
+
+#mailbox{
+    text-align: start;
+    height: 50px;
+    width: 300px;
+    font-size: large;
+    padding-right: 50px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: rgb(172, 146, 146);  
+}
+.mailbox-div{
+    text-align: center;
+    padding-right: 150px;
+}
+
+.getstarted{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    height: 55px;
+    width: 200px;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+.getstarted:hover{
+    background-color: rgb(90, 52, 52);
+}
+
+.page-2{
+    margin-top: ;
+    background-color: black;
+}
+
+#T1{
+    margin-top: 1000px;
+    margin-left: 100px;
+    color: white;
+}
+
+.trending-list{
+    margin: 0;
+    
+    margin-left: 100px;
+}
+
+.card{
+    display: inline-flex;
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
+
+#Retro{
+    height: 200px;
+    width: 150px;
+}
+
+#Chhaava{
+    height: 200px;
+    width: 150px;
+}
+
+#hit{
+    height: 200px;
+    width: 150px;
+}
+
+#test{
+    height: 200px;
+    width: 150px;
+}   
+
+#buddy{
+    height: 200px;
+    width: 150px;
+}   
+
+#hide-seek{
+    height: 200px;
+    width: 150px;
+}
+
+
+
+
+
+
